@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Ladders — Anna Stepanova</title>
+<meta name="description" content="Word ladders research project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<div class="layout">
+
+<aside class="sidebar">
+  <img class="portrait" src="static/images/headshot.jpg" alt="Portrait of Anna Stepanova">
+  <p class="name"><a href="index.html">Anna Stepanova</a></p>
+  <p class="role">Undergraduate Researcher<br>Statistics<br>University of Florida</p>
+
+  <nav class="sidebar-nav" aria-label="Main">
+    <a href="index.html">About</a>
+    <a href="research.html" aria-current="page">Research</a>
+    <a href="coursework.html">Coursework</a>
+    <a href="cv.html">CV</a>
+  </nav>
+
+  <div class="sidebar-contact">
+    <p><a href="mailto:astepanova@ufl.edu">astepanova@ufl.edu</a></p>
+  </div>
+</aside>
+
+<main class="content">
+  <h1>Word ladders project title</h1>
+
+  <dl class="facts">
+    <div><dt>Principal Investigator</dt><dd>Dr. Walter Leite</dd></div>
+    <div><dt>Institution</dt><dd>University of Florida</dd></div>
+    <div><dt>Department</dt><dd>College of Education</dd></div>
+    <div><dt>Affiliated since</dt><dd>September 2025</dd></div>
+  </dl>
+
+  <h2>Research focus</h2>
+
+  <p> How can a digital blending drill be engineered to facilitate improved reading fluency while maintaining high levels of engagement from K–4 students?</p>
+  <p>Phoneme blending drills help early readers turn letter-sound knowledge into fluent word reading, and daily practice moving from simple CVC words toward more complex clusters produces real gains in accuracy and fluency. Curricula like UFLI Foundations build them into regular instruction, and the format adapts well to software.
+
+The obstacle is flexibility. Existing blending games are fixed in content, so teachers can't align them to the lesson they're actually teaching or adjust them to an individual student. This project builds blending drill games into Storiza, an intelligent tutoring system for reading, in a way that keeps the teacher in control.<p>
+
+  <h2>My responsibilities</h2>
+  <p>I generate word ladders for each UFLI lesson using a tree-based approach that starts at a root word and traverses every branch of valid words reachable from it. Where a lesson constrains the word space too tightly to produce enough ladders, I augment the set with words from a large language model. Each ladder is then scored for difficulty using the Developmental English Lexicon Project, a database of word difficulty ratings, so ladders can be matched to a student's level.
+
+I also work on the design and implementation of the blending drill games themselves within the Storiza Reading App, through prototyping in Figma and programming in Python and JavaScript.</p>
+
+
+  <figure>
+    <img src="static/images/word-ladders-media.jpg" alt="">
+  </figure>
+</main>
+</div>
+</body>
+</html>
