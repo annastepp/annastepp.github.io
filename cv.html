@@ -16,7 +16,7 @@
 <aside class="sidebar">
   <img class="portrait" src="static/images/headshot.jpg" alt="Portrait of Anna Stepanova">
   <p class="name"><a href="index.html">Anna Stepanova</a></p>
-  <p class="role">Undergraduate Researcher<br>Statistics<br>University of Florida</p>
+  <p class="role">Undergraduate Researcher<br>Statistics &amp; Economics<br>University of Florida</p>
 
   <nav class="sidebar-nav" aria-label="Main">
     <a href="index.html">About</a>
@@ -27,39 +27,55 @@
 
   <div class="sidebar-contact">
     <p><a href="mailto:astepanova@ufl.edu">astepanova@ufl.edu</a></p>
+    <p><a href="https://www.linkedin.com/in/ufannastepanova17">LinkedIn</a></p>
+    <p><a href="https://github.com/annastepp">GitHub</a></p>
+    <p>Gainesville, FL</p>
   </div>
 </aside>
 
 <main class="content">
   <h1>Curriculum Vitae</h1>
 
-  <p><a class="btn" href="static/cv/cv.pdf" download>Download Resume (PDF)</a></p>
+  <p><a class="btn" href="static/cv/cv.pdf" download>Download CV (PDF)</a></p>
 
   <h2>Education</h2>
   <div class="entry">
     <h3>University of Florida</h3>
-    <p class="meta">B.S., Statistics &middot; Expected 2027</p>
-    <p>Working towards a Bachelor of Science in Statistics at the University of Florida, as well as a thesis. Expected to graduate in 2027.</p>
+    <p class="meta">B.S. in Statistics, B.A. in Economics, Minor in Mathematics &middot; Expected May 2027</p>
+    <p>GPA 3.69. Summa cum laude with honors thesis (expected). Thesis: <em>Causal Forests Under Staggered Enrollment: Heterogeneous Effects of a Statewide Literacy Program</em>. Advisor: Dr. Walter Leite.</p>
   </div>
 
   <h2>Research</h2>
   <div class="entry">
-    <h3>Predicting Reading Difficulty Risk in Early Readers</h3>
-    <p class="meta">Virtual Learning Lab, University of Florida &middot; 2026-2027</p>
-    <p>Developing an interpretable machine learning early warning system that uses session level phoneme blending drill performance to identify students at risk of delayed decoding growth. Work covers feature construction from raw drill interactions, at-risk labeling, and training classification models evaluated on AUC and sensitivity.</p>
+    <h3><a href="research-thesis.html">Statewide Literacy Program Evaluation</a></h3>
+    <p class="meta">Virtual Learning Lab, University of Florida &middot; Aug 2026 &ndash; Present</p>
+    <p>Evaluating which students benefit most from a statewide home book-delivery program in the Southeastern U.S., using assessment data on 1.4M K&ndash;5 students. Designed a staggered difference-in-differences analysis and am estimating heterogeneous effects with causal forests.</p>
   </div>
   <div class="entry">
-    <h3>Automated Word Ladder Generation for Digital Blending Drills</h3>
-    <p class="meta">Virtual Learning Lab, University of Florida &middot; 2025-2026</p>
-    <p>Developed a system to automatically generate word ladders for digital blending drills, ensuring alignment with lesson content and appropriate difficulty for students. Work included algorithm design, implementation, and evaluation of generated ladders.</p>
+    <h3>KGB Lab: Transcription and Annotation</h3>
+    <p class="meta">University of Florida &middot; Feb 2026 &ndash; Present</p>
+    <p>Transcribe and annotate handwritten Soviet-era Russian documents from declassified secret police archives; transcriptions serve as training data for the lab's OCR models.</p>
   </div>
+  <div class="entry">
+    <h3><a href="research-word-ladders.html">Storiza: Automated Word Ladder Generation</a></h3>
+    <p class="meta">Virtual Learning Lab, University of Florida &middot; Sep 2025 &ndash; Apr 2026</p>
+    <p>Built a word-ladder generation system for K&ndash;4 reading fluency using tree-based search, LLM augmentation, and difficulty scoring from the Developmental English Lexicon Project.</p>
+  </div>
+
+  <h2>Honors</h2>
+  <ul class="list">
+    <li>UF AI Scholar, University Scholars Program — 2026&ndash;2027</li>
+    <li>Best Research Poster Award (team), DSI Spring Symposium — 2026</li>
+    <li>Dean's List — Fall 2023, Fall 2025, Spring 2026</li>
+  </ul>
 
   <h2>Technical</h2>
   <ul class="list">
-    <li><strong>Languages</strong> — Python, R, C++, JavaScript, SQL</li>
-    <li><strong>Methods</strong> — convolutional neural networks, gradient boosting, random forests, logistic regression, clustering, dimensionality reduction</li>
-    <li><strong>ML &amp; data</strong> — scikit-learn, TensorFlow, Keras, XGBoost, pandas, NumPy</li>
-    <li><strong>Tools</strong> — Jupyter, Git, MongoDB, Firebase, Label Studio</li>
+    <li><strong>Languages</strong> — Python, R, SQL, C++, JavaScript</li>
+    <li><strong>Methods</strong> — causal forests, difference-in-differences, SVD and low-rank approximation, t-SNE, k-means, CNNs, gradient boosting, random forests</li>
+    <li><strong>Libraries</strong> — scikit-learn, TensorFlow, Keras, XGBoost, pandas, NumPy; did, fixest, grf (R)</li>
+    <li><strong>Tools</strong> — Git, Jupyter, DuckDB, Label Studio</li>
+    <li><strong>Spoken</strong> — English (fluent), Russian (fluent)</li>
   </ul>
 </main>
 </div>
